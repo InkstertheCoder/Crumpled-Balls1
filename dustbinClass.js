@@ -8,15 +8,15 @@ class Dustbin{
  
     
     }
-    this.body = Bodies.rectanle(x,y,options);
+    this.body = Bodies.rectangle(x,y,options);
     
     World.add(world,this.body);
 
-    this.body = Bodies.rectanle(x,y,options);
+    this.body = Bodies.rectangle(x,y,options);
     
     World.add(world,this.body);
 
-    this.body = Bodies.rectanle(x,y,options);
+    this.body = Bodies.rectangle(x,y,options);
     
     World.add(world,this.body);
 
